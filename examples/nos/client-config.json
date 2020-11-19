@@ -1,19 +1,21 @@
 {
-  "server": "https://api.nos.nanocrawler.cc",
-  "websocketServer": "ws.nos.nanocrawler.cc",
+  "server": "rpc.raicoin.org",
+  "websocketServer": "ws.raicoin.org",
   "donationAddress":
-    "nos_1obactwuwtgbatjsxcq91wiaokh63agkhptk3chgrsiw3b7kr615joffzsit",
+    "rai_31u7qi8qckya6ww5aee1tma71h7kt8p1xyzginrn1yrqhagg7es8qtt3641p",
   "currency": {
-    "name": "NOS",
-    "shortName": "NOS",
-    "precision": 10,
-    "maxSupply": 1000000000,
-    "prefixes": ["nos"],
-    "qrPrefix": "nos",
+    "name": "RAI",
+    "shortName": "RAI",
+    "precision": 30,
+    "maxSupply": 133248289,
+    "prefixes": ["rai"],
+    "qrPrefix": "rai",
     "supportsMyNanoNinja": false
   },
   "features": {
     "nodeStatus": true,
+    "searchSuggestions": false,
+    "defaultNatriconOn": true,
     "supportedLanguages": {
       "en": "English",
       "cs": "Čeština",
